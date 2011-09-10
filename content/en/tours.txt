@@ -1,0 +1,35 @@
+# Example Tours
+
+*  [Dublin and the surrounding area](en/tours#dublin)
+*  [North of Ireland](en/tours#north)
+
+## <a name="dublin"></a>7 days Dublin and the surrounding area
+
+A short description of the tour
+
+*	Dublin City tour
+*	Dublinia Museum - Viking and Medieval Dublin
+*	National Museum of Ireland
+*	Christ Church Cathedral
+*	Trinity College and the Book of Kels
+*	Guinness Storehouse
+
+	History of our 250 year old famous beer
+*	Wicklow National Park
+*	Glendalough - Early Medieval monastic settlement
+*	Powerscourt House and Gardens
+*	New Grange - Megalithic Passage Tomb
+
+## <a name="norden"></a>7 Tage durch den Norden Irlands
+
+Hier wird die Tour kurz und knapp beschrieben:
+
+*	Derry City tour
+*	Glenveagh National Park
+*	Bushmills Distillery
+*	Giant´s Causeway - World Heritage site
+*	Carrig-a-Rede Roapbridge
+*	The Glens of Antrim
+*	Lough Neagh boat tour
+*	Belfast City tour
+*	Ulster American Folk park

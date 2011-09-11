@@ -1,7 +1,6 @@
 /* the humans responsible & colophon */
 /* humanstxt.org */
 
-
 /* TEAM */
   CEO: Mary O'Keeffe
   Site: mok@abenteuer-irland.de

@@ -37,7 +37,7 @@
 	<!-- All JavaScript at the bottom, except for Modernizr / Respond.
 			 Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
 			 For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
-	<script src="js/libs/modernizr.custom.66416.js"></script>
+	<script src="js/libs/modernizr.custom.96237.js"></script>
 </head>
 
 <body id="<?php echo $aPage['css-id']?>">

@@ -304,9 +304,8 @@ FileETag None
 # FollowSymLinks must be enabled for this to work.
 
 <IfModule mod_rewrite.c>
-  Options +FollowSymlinks
+#  Options +FollowSymlinks
   RewriteEngine On
-  RewriteBase /~ArloLOK/abenteuer-irland-2
 </IfModule>
 
 
@@ -408,7 +407,7 @@ FileETag None
 # without -MultiViews, Apache will give a 404 for a rewrite if a folder of the same name does not exist 
 #   e.g. /blog/hello : webmasterworld.com/apache/3808792.htm
 
-Options -MultiViews 
+# Options -MultiViews 
 
 
 
@@ -447,7 +446,7 @@ AddCharset utf-8 .html .css .js .xml .json .rss .atom
 # "-Indexes" will have Apache block users from browsing folders without a default document
 # Usually you should leave this activated, because you shouldn't allow everybody to surf through
 # every folder on your server (which includes rather private places like CMS system folders).
-Options -Indexes
+# Options -Indexes
 
 
 # Block access to "hidden" directories whose names begin with a period. This
@@ -513,6 +512,6 @@ Options -Indexes
 # php_value error_append_string " "
 
 # Increase cookie security
-<IfModule php5_module>
-	php_value session.cookie_httponly true
-</IfModule>
+# <IfModule php5_module>
+#	php_value session.cookie_httponly true
+# </IfModule>

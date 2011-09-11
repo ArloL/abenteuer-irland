@@ -911,18 +911,60 @@
 		<!-- osfamily=unix is actually true on OS X as well -->
 		<!-- On *nix's and OS X, check for optipng and give a helpful message if it's not installed -->
 		<if>
-			<and>
-				<os family="unix" />
-				<available file="optipng" filepath="${ENV.PATH}" />
-			</and>
+			<os family="unix" />
 			<then>
+				<if>
+					<available file="optipng" filepath="${ENV.PATH}" />
+					<then>
+						<!-- work around https://sourceforge.net/tracker/?func=detail&aid=2671422&group_id=151404&atid=780916 -->
+						<delete>
+							<fileset dir="./${dir.publish}/${dir.images}/">
+								<include name="**/*.png" />
+							</fileset>
+						</delete>
+						<apply executable="optipng" dest="./${dir.publish}/${dir.images}/" osfamily="unix">
+							<fileset dir="./${dir.source}/${dir.images}/" includes="**/*.png" excludes="${images.bypass}, ${images.default.bypass}" />
+							<arg value="-quiet" />
+							<arg value="-o7" />
+							<arg value="-out" />
+							<targetfile />
+							<srcfile />
+							<mapper type="identity" />
+						</apply>
+					</then>
+					<else>
+						<echo message="*** optipng NOT INSTALLED. SKIPPING OPTIMIZATION OF PNGs." />
+						<echo message="*** Install optipng to enable png optimization." />
+						<echo message="*** For instructions see 'Dependencies' at: http://html5boilerplate.com/docs/#Build-script#dependencies" />
+					</else>
+				</if>
+				<if>
+					<available file="pngout" filepath="${ENV.PATH}" />
+					<then>
+						<apply executable="pngout" dest="./${dir.publish}/${dir.images}/" osfamily="unix">
+							<fileset dir="./${dir.publish}/${dir.images}/" includes="**/*.png" excludes="${images.bypass}, ${images.default.bypass}" />
+							<arg value="-y"/>
+							<arg value="-q"/>
+							<srcfile />
+							<targetfile />
+							<mapper type="identity" />
+						</apply>
+					</then>
+					<else>
+						<echo message="*** pngout NOT INSTALLED. SKIPPING OPTIMIZATION OF PNGs." />
+						<echo message="*** Install pngout to enable png optimization." />
+						<echo message="*** A binary download is here: http://www.jonof.id.au/kenutils" />
+					</else>
+				</if>
+			</then>
+			<else>
 				<!-- work around https://sourceforge.net/tracker/?func=detail&aid=2671422&group_id=151404&atid=780916 -->
 				<delete>
 					<fileset dir="./${dir.publish}/${dir.images}/">
 						<include name="**/*.png" />
 					</fileset>
 				</delete>
-				<apply executable="optipng" dest="./${dir.publish}/${dir.images}/" osfamily="unix">
+				<apply executable="${basedir}/${dir.build.tools}/optipng-0.6.4-exe/optipng.exe" dest="./${dir.publish}/${dir.images}/" osfamily="windows">
 					<fileset dir="./${dir.source}/${dir.images}/" includes="**/*.png" excludes="${images.bypass}, ${images.default.bypass}" />
 					<arg value="-quiet" />
 					<arg value="-o7" />
@@ -931,32 +973,8 @@
 					<srcfile />
 					<mapper type="identity" />
 				</apply>
-			</then>
-			<elseif>
-				<os family="unix" />
-				<then>
-					<echo message="*** optipng NOT INSTALLED. SKIPPING OPTIMIZATION OF PNGs." />
-					<echo message="*** Install optipng to enable png optimization." />
-					<echo message="*** For instructions see 'Dependencies' at: http://html5boilerplate.com/docs/#Build-script#dependencies" />
-				</then>
-			</elseif>
+			</else>
 		</if>
-
-		<!-- work around https://sourceforge.net/tracker/?func=detail&aid=2671422&group_id=151404&atid=780916 -->
-		<delete>
-			<fileset dir="./${dir.publish}/${dir.images}/">
-				<include name="**/*.png" />
-			</fileset>
-		</delete>
-		<apply executable="${basedir}/${dir.build.tools}/optipng-0.6.4-exe/optipng.exe" dest="./${dir.publish}/${dir.images}/" osfamily="windows">
-			<fileset dir="./${dir.source}/${dir.images}/" includes="**/*.png" excludes="${images.bypass}, ${images.default.bypass}" />
-			<arg value="-quiet" />
-			<arg value="-o7" />
-			<arg value="-out" />
-			<targetfile />
-			<srcfile />
-			<mapper type="identity" />
-		</apply>
 	</target>
 
 

@@ -1,5 +1,5 @@
 <?php
-  $pages = array(
+  $aPages = array(
     'home' => array(
       'title' => 'Abenteuer Irland - Persönliche Irlandreisen',
       'description' => 'Irlandreisen ganz individuell gestaltet von Mary O\'Keeffe',

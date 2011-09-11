@@ -1,9 +1,9 @@
 <?php
-  $directory = array(
+  $aDirectory = array(
     'content-language' => 'en',
     'description' => 'This is the english site.',
   );
-  $pages = array(
+  $aPages = array(
     'home' => array(
       'title' => 'Abenteuer Irland - Persönliche Irlandreisen',
       'description' => 'Irlandreisen ganz individuell gestaltet von Mary O\'Keeffe',

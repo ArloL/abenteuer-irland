@@ -394,17 +394,14 @@ footer p {
 	text-align: center;
 	}
 
-#home #content {
-	background: url(../img/back.jpg) no-repeat center top;
-}
-
 #main .floatright {
 	margin: 0px 0px 10px 20px;
 }
 
-#business-english #content {
-    background: #2D71B3;
+#home #content {
+	background: url(../img/back.jpg) no-repeat center top;
 }
+
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.

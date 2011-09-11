@@ -461,6 +461,8 @@
 				<exclude name="${file.manifest}" />
 			</fileset>
 		</copy>
+		
+		<replaceregexp match="RewriteBase .*" replace="" flags="g" file="./${dir.publish}/.htaccess"/>
 
 		<echo message="A copy of all non-dev files are now in: ./${dir.publish}." />
 	</target>

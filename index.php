@@ -59,7 +59,7 @@
 					<a href="<?php echo getTranslation($aPage, 'de') ?>"><img width="30" height="18" src="img/german.png" alt="German"></a>
 					<?php } ?>
 					<?php if($aPage['content-language'] !== 'en') { ?>
-					<a href="<?php echo getTranslation($aPage, 'en'); ?>"><img src="img/english.png" alt="English"></a>
+					<a href="<?php echo getTranslation($aPage, 'en'); ?>"><img width="30" height="15" src="img/english.png" alt="English"></a>
 					<?php }?>
 					</p>
 				</div>

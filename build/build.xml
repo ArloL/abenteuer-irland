@@ -941,7 +941,7 @@
 				<if>
 					<available file="pngout" filepath="${ENV.PATH}" />
 					<then>
-						<apply executable="pngout" dest="./${dir.publish}/${dir.images}/" osfamily="unix">
+						<apply executable="pngout" dest="./${dir.publish}/${dir.images}/" osfamily="unix" force="yes">
 							<fileset dir="./${dir.publish}/${dir.images}/" includes="**/*.png" excludes="${images.bypass}, ${images.default.bypass}" />
 							<arg value="-y"/>
 							<arg value="-q"/>

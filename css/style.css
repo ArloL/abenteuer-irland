@@ -398,8 +398,8 @@ footer p {
 	background: url(../img/back.jpg) no-repeat center top;
 }
 
-#ueber-mich #portrait {
-	margin: 10px 0px 20px 20px;
+#main .floatright {
+	margin: 0px 0px 10px 20px;
 }
 
 #business-english #content {

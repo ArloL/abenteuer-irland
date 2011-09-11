@@ -32,10 +32,11 @@ dwsync.xml
 .hg
 .svn
 .CVS
+.idea
 intermediate
 publish
-.idea
 content
+site/custom.php
 
 # build script local files
 build/buildinfo.properties

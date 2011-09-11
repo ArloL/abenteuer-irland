@@ -1,5 +1,5 @@
 <?php
-	$site = array(
+	$aSite = array(
 		'default-language' => 'de',
 		'content-language' => 'de',
 		'supported-languages' => array(
@@ -18,7 +18,7 @@
 		'analytics-id' => 'UA-25657814-1',
 	);
 	
-	$redirects = array(
+	$aRedirects = array(
 		'touren.html' => 'touren',
 			'downloads.html' => 'downloads',
 			'ueber-mich.html' => 'ueber-mich',

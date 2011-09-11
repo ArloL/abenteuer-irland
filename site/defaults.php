@@ -17,14 +17,14 @@
 		'base' => '',
 		'analytics-id' => 'UA-25657814-1',
 	);
-	
+
 	$aRedirects = array(
 		'touren.html' => 'touren',
-			'downloads.html' => 'downloads',
-			'ueber-mich.html' => 'ueber-mich',
-			'kontakt.html' => 'kontakt',
+		'downloads.html' => 'downloads',
+		'ueber-mich.html' => 'ueber-mich',
+		'kontakt.html' => 'kontakt',
 		'impressum.html' => 'impressum',
-			'index.html' => '.',
-			'home' => '.',
-		'en/home' => '.',
+		'index.html' => '',
+		'home' => '',
+		'en/home' => 'en/',
 	);

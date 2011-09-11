@@ -70,43 +70,48 @@ function getConfig() {
 	if (isset($_GET['path']) === TRUE) {
 		if (substr($_GET['path'], -1) !== '/') {
 			$sName = $_GET['path'];
-			if (array_key_exists($sName, $aRedirects)) {
+			$sLowerName = strtolower($sName);
+			if (array_key_exists($sLowerName, $aRedirects)) {
 				header('HTTP/1.1 301 Moved Permanently');
-				header('Location: ' . $aRedirects[$sName]);
+				header('Location: ' . $aSite['base'] . $aRedirects[$sLowerName]);
 				return;
 			}
 		} else {
 			$sName = $_GET['path'] . 'home';
+			$sLowerName = strtolower($sName);
 		}
 	} else {
 		$sName = 'home';
+		$sLowerName = $sName;
 	}
 
-	if ($sName !== strtolower($sName)) {
-		header('HTTP/1.1 301 Moved Permanently');
-		header('Location: ' . strtolower($sName));
-		return;
-	}
-
-	$aDirs = explode('/', $sName);
+	$aDirs = explode('/', $sLowerName);
 
 	if (in_array($aDirs[0], $aSite['supported-languages']) === FALSE) {
-		$sName = $aSite['default-language'] . '/' . $sName;
+		$sName = $aSite['default-language'] . '/' . $sLowerName;
+		$sLowerName = strtolower($sName);
 	}
 
-	$aDirConfig = getMergedDirConfig($sName);
+	$aDirConfig = getMergedDirConfig($sLowerName);
 
-	$aPageConfig = getPageConfig($sName);
+	$aPageConfig = getPageConfig($sLowerName);
 	if (array_key_exists('content', $aPageConfig) === FALSE) {
-		$aPageConfig['content'] = $sName;
+		$aPageConfig['content'] = $sLowerName;
 	}
 
 	$aConfig = array_merge($aSite, $aDirConfig, $aPageConfig);
 
 	if (file_exists('content/'. $aConfig['content'] . '.txt') === FALSE) {
-		$aConfig = array_merge($aSite, $aDirConfig);
-		$aConfig['content'] = $aConfig['content-language'].'/404';
+		$s404 = $aConfig['content-language'].'/404';
+		// reset config when file does not exist
+		$aPageConfig = getPageConfig($s404);
+		$aConfig = array_merge($aSite, $aDirConfig, $aPageConfig);
+		$aConfig['content'] = $s404;
 		header("HTTP/1.1 404 Not Found");
+	} else if ($sName !== $sLowerName) {
+		header('HTTP/1.1 301 Moved Permanently');
+		header('Location: ' . $aSite['base'] . $sLowerName);
+		return;
 	}
 
 	if ($aConfig['expand-title'] === TRUE) {

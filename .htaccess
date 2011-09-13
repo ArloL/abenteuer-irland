@@ -144,9 +144,6 @@ AddType text/x-vcard                   vcf
   <IfModule mod_headers.c>
     SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
     RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
-    
-    # Append Accept-Encoding to Vary to enable correct proxy behavior.
-    Header append Vary Accept-Encoding
   </IfModule>
 </IfModule>
 

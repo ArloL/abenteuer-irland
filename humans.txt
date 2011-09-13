@@ -16,7 +16,6 @@
   
 
 /* SITE */
-  Last update: 2011/09/11
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
   Software:

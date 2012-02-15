@@ -46,7 +46,7 @@
 	<div id="center">
 		<div id="container">
 			<header>
-				<a class="logo" href="." title="Abenteuer Irland"><img src="img/logo.png" width="335" height="70" title="Abenteuer Irland" alt="Abenteuer Irland"></a>
+				<a class="logo" href="." title="Abenteuer Irland"><img src="img/logo.png" width="316" height="70" title="Abenteuer Irland" alt="Abenteuer Irland"></a>
 				<div id="telBox">
 					<p>
 						<a href="mailto:mok@abenteuer-irland.de">mok@abenteuer-irland.de</a><br />

@@ -289,6 +289,7 @@ header .logo {
 
 #telBox {
 	display: inline-block;
+	*display: inline;
 	margin: 5px 5px 5px 20px;
 	padding: 7px 20px;
 	background-color: #eedb7d;
@@ -308,18 +309,13 @@ header .logo {
 
 #language {
 	display: inline-block;
+	*display: inline;
 	margin: 5px 5px 5px 20px;
 	padding: 0;
 	}
 
 #language p {
 	margin: 0;
-	}
-
-
-.lt-ie8 #telBox,
-.lt-ie8 #language {
-	display: inline;
 	}
 
 header nav {
@@ -437,7 +433,7 @@ footer p {
    ========================================================================== */
 
 /* For image replacement */
-.ir { display: block; border: 0; line-height: 999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; *text-indent:0;}
 .ir br { display: none; }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */

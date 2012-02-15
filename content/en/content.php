@@ -5,8 +5,8 @@
   );
   $aPages = array(
     'home' => array(
-      'title' => 'Abenteuer Irland - Persönliche Irlandreisen',
-      'description' => 'Irlandreisen ganz individuell gestaltet von Mary O\'Keeffe',
+      'title' => 'Abenteuer Irland - Personal Ireland Trips',
+      'description' => 'Trips to Ireland - planned according to your needs by Mary O\'Keeffe',
       'css-id' => 'home',
       'expand-title' => false,
       'translations' => array(
@@ -23,6 +23,12 @@
       'title' => 'Presentations',
       'translations' => array(
         'de' => 'praesentationen',
+      ),
+    ),
+    'cookery' => array(
+      'title' => 'Cookery',
+      'translations' => array(
+        'de' => 'kochen',
       ),
     ),
     'tours' => array(

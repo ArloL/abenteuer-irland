@@ -22,6 +22,12 @@
         'en' => 'presentations',
       ),
     ),
+    'kochen' => array(
+      'title' => 'Kochen',
+      'translations' => array(
+        'en' => 'cookery',
+      ),
+    ),
     'touren' => array(
       'title' => 'Touren',
       'translations' => array(

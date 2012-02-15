@@ -1,6 +1,7 @@
 [Home](en/)
 [Business English](en/business-english)
 [Presentations](en/presentations)
+[Cookery](en/cookery)
 [Tours](en/tours)
 [About me](en/about-me)
 [Contact](en/contact)

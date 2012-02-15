@@ -1,4 +1,4 @@
-<img id="portrait" class="floatright" src="img/Mary-11.jpg">
+<img class="floatright" width="180" height="203" src="img/Mary-11.jpg">
 # About me
 
 My name is Mary O´Keeffe. I grew up on a dairy farm in the south-west of Ireland. I moved

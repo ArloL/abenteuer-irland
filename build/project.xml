@@ -8,6 +8,13 @@
 	<target name="publish" depends="-publish" />
 
 	<target name="-publish" depends="-clean, -build.production">
+		<!-- First set RewriteBase correctly -->
+		<replaceregexp file="./${dir.publish}/.htaccess"
+		               match="^(.*)RewriteBase .*$"
+		               replace="\1RewriteBase ${rewritebase}"
+		               byline="true"
+		/>
+		
 		<ftp server="${ftp.server}" userid="${ftp.userid}" password="${ftp.password}" remotedir="${ftp.remotedir}">
 			<fileset dir="publish" />
 		</ftp>

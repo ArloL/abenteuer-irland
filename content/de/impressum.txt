@@ -43,7 +43,7 @@ inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunk
 einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen 
 werden wir derartige Links umgehend entfernen.
 
-### Urheberrecht
+## Urheberrecht
 
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten 
 unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und 
@@ -55,7 +55,9 @@ werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter a
 gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden,
 bitten wir um einen entsprechenden Hinweis. 
 Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
-<strong>Datenschutz</strong>
+
+## Datenschutz
+
 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich.
 Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, 
 Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf

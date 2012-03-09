@@ -65,7 +65,7 @@ function getMergedDirConfig($sName) {
 
 function getConfig() {
 	require 'site/defaults.php';
-	require 'site/custom.php';
+	include 'site/custom.php';
 
 	if (isset($_GET['path']) === TRUE) {
 		if (substr($_GET['path'], -1) !== '/') {

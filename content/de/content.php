@@ -1,18 +1,18 @@
 <?php
-  $aPages = array(
+$aPages = array(
     'home' => array(
       'title' => 'Abenteuer Irland - Persönliche Irlandreisen',
       'description' => 'Irlandreisen ganz individuell gestaltet von Mary O\'Keeffe',
       'css-id' => 'home',
       'expand-title' => false,
-  	  'translations' => array(
+      'translations' => array(
         'en' => 'home',
       ),
     ),
     'business-english' => array(
         'title' => 'Business English',
         'css-id' => 'business-english',
-    	'translations' => array(
+        'translations' => array(
           'en' => 'business-english',
         ),
     ),
@@ -54,3 +54,4 @@
       ),
     ),
   );
+

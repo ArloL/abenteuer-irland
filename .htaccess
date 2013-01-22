@@ -1,3 +1,6 @@
+---
+layout: nil
+---
 # Apache configuration file
 # httpd.apache.org/docs/2.2/mod/quickreference.html
 
@@ -306,7 +309,7 @@ FileETag None
 <IfModule mod_rewrite.c>
 #  Options +FollowSymlinks
   RewriteEngine On
-  RewriteBase /~ArloLOK/ws/abenteuer-irland
+  RewriteBase {{site.baseurl}}
 </IfModule>
 
 

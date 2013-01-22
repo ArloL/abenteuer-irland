@@ -7,47 +7,38 @@ translations:
  - language: en
    link: en/
 ---
-# IRLAND – Traditionen und Lebensweisen 
+# Irland
 
-**7. - 14. Juli 2012**
+## Traditionen und Lebensweisen 
 
-In Irland ist die Vergangenheit ein lebendiger Bestandteil der Gegenwart. Die
-Insel ist durchdrungen von Geschichte und keltischer Mythologie, und ganz
-gleich, wo Sie hingehen, das reiche kulturelle Erbe Irlands wird Sie begleiten.
-Highlights der Republik sind sicherlich die Klöster, die den Wegesrand säumen.
-Aber auch Dublin, die Hauptstadt der Republik Irland. Die weltoffene und
-geschäftige Stadt ist voller Energie und Leben. Hier schlägt das Herz der Grünen
-Insel!
+### 20. - 27. Juli 2013
 
-Zuerst erkunden Sie Dublin und Umgebung wo Sie drei Tage verbringen werden. Die
-Mentalität der Menschen, die Pub-Kultur und die Musik werden Sie begeistern.
-Besuchen Sie Irlands „Tal der Könige“ im Boyne Tal. Die megalithischen
-Ganggräber Newgrange und Knowth sind älter als die Pyramiden von Gizeh und
-wurden von der UNESCO zum Weltkulturerbe ernannt.
+Erleben Sie die grüne Insel in Begleitung der irischen Reiseleiterin Mary O`Keeffe.
 
-Die zweite Station Ihrer Reise führt Sie nach Galway, wo Sie die verbleibenden
-vier Tage verbringen werden. Von hier aus geht es in die wild-romantische Moor-
-Landschaft von Connemara mit Bergen, unzähligen Seen und Bächen, entlang einer
-zerklüfteten Küste. Eine weitere Tagestour bringt Sie zu einer der drei Aran
-Inseln, auf denen noch Gälisch gesprochen wird. Die berühmten Klippen von Moher
-werden Sie per Schiff von der Meerseite aus betrachten.
+In Irland ist die Vergangenheit ein lebendiger Bestandteil der Gegenwart. Die Insel ist durchdrungen von Geschichte und keltischer Mythologie, und ganz gleich, wo Sie hingehen, das reiche kulturelle Erbe Irlands wird Sie begleiten. 
 
-Genießen Sie zum Abschluss ein mittelalterliches Ritteressen auf Dunguaire
-Castle, einer Burg aus dem 17. Jh., die malerisch auf einem Felsvorsprung
-thront.
+Zuerst erkunden Sie Dublin und Umgebung wo Sie zwei Tage verbringen werden. Die weltoffene und geschäftige Stadt ist voller Energie und Leben. Hier schlägt das Herz der Grünen Insel! Die Mentalität der Menschen, die Pub-Kultur und die Musik werden Sie begeistern. 
 
-**Highlights in Dublin und Umgebung**
+Nach unserem Aufenthalt in Dublin besuchen wir Glendalough, ein Tal in den Wicklow Mountains. Es ist bekannt für seine Klostersiedlung – eine der berühmtesten der Insel der im 6. Jahrhundert von St.Kevin gegründet wurde. Das Glendalough Besucherzentrum bietet umfangreiche Information zur Geschichte des Klosters.
 
-*	Dublin Stadtrundfahrt
-*	Trinity College und das Buch von Kells
-*	Guinness Storehouse
-*	Boyne Valley - Megalithisches Ganggrab
-*	Glendalough Klosteranlage
-*	Powerscourt Haus & Gärten
+Die zweite Station der Reise führt Sie nach Cork. Lassen Sie sich verzaubern von Irlands zweit größte Stadt und Umgebung.
 
-**Highlights in Galway und Umgebung**
+Die letzten Tage der Reise verbringen Sie im Süd-westen. Zusammen entdecken Sie Irlands berühmte Grafschaft Kerry. Der landschaftliche Charakter von Kerry wird maßgeblich durch die Atlantikküste bestimmt. Sie ist geprägt von vielen Halbinseln, kleinen Buchten und vorgelagerten Inseln.
 
-*	Connemara und Kylemore Abtei
-*	Cliffs of Moher
-*	Inisheer - Aran Inseln
-*	Bootsfahrt auf dem Corrib See
+Diese Gegend ist besonders von den Einflüssen des Golfstroms geprägt was zu eine üppige Natur führt.
+
+### Highlights in Dublin und Umgebung
+
+*   Dublin Stadtrundfahrt
+*   Casino Marino
+*   Guinness Storehouse 
+*   Powerscourt Haus & Gärten
+*   Glendalough Klosteranlage 
+
+### Weitere Highlights
+
+*   Cork Stadtrundfahrt
+*   Die Südküste
+*   Killarney und den Südwesten
+*   Kutsche- und Bootsfahrt
+*   Japanische Gärten in Kildare

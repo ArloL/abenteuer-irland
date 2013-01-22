@@ -9,48 +9,48 @@ translations:
 ---
 # Präsentationen
 
-##  Ireland - One of Europe's Jewels
+Erfahren Sie in 1 1/2 Stunden aus persönlicher Sicht alles über die grüne Insel.
+Es gibt Vorträge auf Deutsch sowie auf Englisch, wo Sie gleich Ihre
+Sprachkenntnisse auffrischen können.
 
-Vortrag auf Englisch 
+#  Ireland - One of Europe's Jewels
 
-*   **Borken** am Donnerstag 23. Februar
+*   **Dülmen** am Freitag, 22. Februar 2013
 
-    19:30 - 21 Uhr
-    
-    VHS Forum - Vortragsraum  
-    Heidener Str. 88  
-    46325 Borken
-
-*   **Wesel** am Donnerstag 1. März
-
-    19:30 - 21 Uhr
-
-    VHS-Gebäude "centrum"  
-    Ritterstr. 10-14  
-    46483 Wesel
-
-*   **Neuenkirchen - Kreis Steinfurt** am Donnerstag 8. März
+	Der Vortrag wird auf *Englisch* gehalten werden.
 
     19:30 - 21 Uhr
     
-	Villa Hecking - Seminarraum 1  
-	Alphons-Hecking-Platz 1  
-	48485 Neuenkirchen
+    Münsterstr. 29  
+    48249 Dülmen  
+    02594 12474
 
-*   **Stadtlohn** am Freitag 23. März
+*   **Rees** am Donnerstag, 28. Februar 2013
+
+	Der Vortrag wird auf *Englisch* gehalten werden.
+
+    19:30 - 21 Uhr
+
+    Bürgerhaus  
+	Kleiner Saal  
+	Markt 1  
+	Rees
+
+*   **Rheine** am Freitag, 1. März 2013
+
+	Der Vortrag wird auf *Deutsch* gehalten werden.
+
+    19:30 - 21 Uhr
+    
+    Raum 18  
+    Neuenkirchenerstr. 22  
+    48431 Rheine  
+    05971 939127
+
+*   **Hamm** am Freitag, 6. September 2013
+
+	Der Vortrag wird auf *Englisch* gehalten werden.
 
 	19:30 - 21 Uhr
 	
-	VHS-Haus Stadtlohn  
-	Klosterstr. 18  
-	48703 Stadtlohn
-	
-*	**Coesfeld** am Donnerstag 29. März
-
-	19:30 - 21 Uhr
-	
-	WBK Forum  
-	Osterwicker Straße 29  
-	48653 Coesfeld
-
-
+	Veranstaltungsort wird noch bekanntgegeben.

@@ -3,9 +3,9 @@ require 'rake/contrib/ftptools'
 
 task :default => [:dev]
 
-desc 'Running Jekyll with --server --auto option'
+desc 'Running Jekyll with --auto option'
 task :dev do
-  system('jekyll --server --auto')
+	system('jekyll --auto')
 end
 
 task :upload do

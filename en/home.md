@@ -1,4 +1,16 @@
-<img class="floatright" width="180" height="203" src="img/Mary-11.jpg">
+---
+layout: default
+title: Abenteuer Irland - Personal Ireland Trips
+no_title_expansion: true
+description: Trips to Ireland - planned according to your needs by Mary O'Keeffe.
+body_id: home
+language: en
+translations:
+ - language: de
+   link: http://abenteuer-irland.de
+---
+<img class="floatright" width="180" height="203" src="/img/Mary-11.jpg">
+
 # Hello,
 
 my name is Mary O`Keeffe and as a native Irish person I´d like to show you my Ireland –

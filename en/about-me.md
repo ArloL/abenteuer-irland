@@ -1,4 +1,14 @@
-<img class="floatright" width="180" height="203" src="img/Mary-11.jpg">
+---
+layout: default
+title: About me
+body_id: ueber-mich
+language: en
+translations:
+ - language: de
+   link: ueber-mich
+---
+<img class="floatright" width="180" height="203" src="/img/Mary-11.jpg">
+
 # About me
 
 My name is Mary O´Keeffe. I grew up on a dairy farm in the south-west of Ireland. I moved

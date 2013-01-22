@@ -1,3 +1,11 @@
+---
+layout: default
+title: Contact
+language: en
+translations:
+ - language: de
+   link: kontakt
+---
 # Contact
 
 Mary O´Keeffe  

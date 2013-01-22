@@ -7,7 +7,7 @@ body_id: home
 language: en
 translations:
  - language: de
-   link: http://abenteuer-irland.de
+   link: 
 ---
 <img class="floatright" width="180" height="203" src="/img/Mary-11.jpg">
 

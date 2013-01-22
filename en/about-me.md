@@ -8,7 +8,7 @@ translations:
  - language: de
    link: ueber-mich
 ---
-<img class="floatright" width="180" height="200" src="img/mary.jpg">
+<img class="floatright" width="180" height="200" src="img/mary-2.jpg">
 
 # About me
 

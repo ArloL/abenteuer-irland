@@ -8,11 +8,11 @@ analytics_id: UA-25657814-1
 languages:
  - short: en
    name: English
-   flag: english.png
+   flag: english-2.png
    flag_width: 30
    flag_height: 15
  - short: de
    name: Deutsch
-   flag: german.png
+   flag: german-2.png
    flag_width: 30
    flag_height: 18

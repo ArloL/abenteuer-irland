@@ -2,12 +2,13 @@
 layout: default
 title: About me
 body_id: ueber-mich
+base: ..
 language: en
 translations:
  - language: de
    link: ueber-mich
 ---
-<img class="floatright" width="180" height="203" src="/img/Mary-11.jpg">
+<img class="floatright" width="180" height="203" src="img/Mary-11.jpg">
 
 # About me
 

@@ -2,7 +2,9 @@
 	"folders":
 	[
 		{
-			"path": "/Users/ArloLOK/Developer/Websites/abenteuer-irland"
+			"path": ".",
+			"folder_exclude_patterns" : ["_site"],
+			"file_exclude_patterns": ["*.css"]
 		}
 	]
 }

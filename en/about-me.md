@@ -2,6 +2,7 @@
 layout: default
 title: About me
 body_id: ueber-mich
+canonical: en/about-me
 base: ..
 language: en
 translations:

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Abenteuer Irland - Persönliche Irlandreisen
+canonical: 
 no_title_expansion: true
 description: Irlandreisen ganz individuell gestaltet von Mary O'Keeffe.
 body_id: home

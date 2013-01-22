@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Downloads
+canonical: downloads
 language: de
 translations:
  - language: en

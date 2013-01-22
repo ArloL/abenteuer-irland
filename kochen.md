@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kochen
+canonical: kochen
 language: de
 translations:
  - language: en

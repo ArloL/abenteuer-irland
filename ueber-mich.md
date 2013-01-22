@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Über me
+canonical: ueber-mich
 body_id: ueber-mich
 language: de
 translations:

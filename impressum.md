@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Impressum
+canonical: impressum
 language: de
 translations:
  - language: en

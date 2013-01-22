@@ -4,6 +4,7 @@ title: Abenteuer Irland - Personal Ireland Trips
 no_title_expansion: true
 description: Trips to Ireland - planned according to your needs by Mary O'Keeffe.
 body_id: home
+canonical: en/
 base: ..
 language: en
 translations:

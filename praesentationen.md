@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Präsentationen
+canonical: praesentationen
 language: de
 translations:
  - language: en

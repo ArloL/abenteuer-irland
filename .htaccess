@@ -394,9 +394,14 @@ FileETag None
 # This is used for the custom CMS by Arlo O'Keeffe.
 
 <IfModule mod_rewrite.c>
-  RewriteCond		%{REQUEST_FILENAME}		!-f
+  RewriteCond   %{REQUEST_FILENAME}       !-f
+  RewriteCond   %{REQUEST_FILENAME}.html  !-f
+  RewriteCond   %{REQUEST_FILENAME}       !-d
+  RewriteRule ^(.*)$ redirect.php?path=$1 [QSA]
+
+  RewriteCond   %{REQUEST_FILENAME}   !-f
   RewriteCond		%{REQUEST_FILENAME}		!-d
-  RewriteRule ^(.*)$ index.php?path=$1 [QSA,L]
+  RewriteRule ^(.*)$ $1.html [QSA,L]
 </IfModule>
 
 

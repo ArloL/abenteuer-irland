@@ -24,7 +24,7 @@ task :dev do
 	system('jekyll --auto')
 end
 
-task :beta do
+task :beta => :lessc do
 	system('jekyll --base-url /')
 	cd '_site' do
   	Rake::FtpUploader.connect('/html/beta-abenteuer-irland', 'abenteuer-irland.de', 'web329', 'HlHHvtWX') do |ftp|
@@ -35,7 +35,7 @@ task :beta do
 	end
 end
 
-task :upload do
+task :upload => :lessc do
 	system('jekyll --base-url /')
 	cd '_site' do
   	Rake::FtpUploader.connect('/html/abenteuer-irland', 'abenteuer-irland.de', 'web329', 'HlHHvtWX') do |ftp|

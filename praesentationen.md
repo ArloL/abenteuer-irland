@@ -1,3 +1,11 @@
+---
+layout: default
+title: Präsentationen
+language: de
+translations:
+ - language: en
+   link: en/presentationss
+---
 # Präsentationen
 
 ##  Ireland - One of Europe's Jewels

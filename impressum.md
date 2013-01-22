@@ -1,3 +1,11 @@
+---
+layout: default
+title: Impressum
+language: de
+translations:
+ - language: en
+   link: en/
+---
 # Impressum
 
 Mary O'Keeffe

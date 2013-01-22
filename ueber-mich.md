@@ -1,4 +1,14 @@
+---
+layout: default
+title: Über me
+body_id: ueber-mich
+language: de
+translations:
+ - language: en
+   link: en/about-me
+---
 <img id="portrait" class="floatright" src="img/Mary-11.jpg">
+
 # Über mich
 
 Mein Name ist Mary O'Keeffe. Ich bin im Süd-Westen Irlands

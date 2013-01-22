@@ -1,8 +1,0 @@
-[Startseite](.)
-[Business English](business-english)
-[Präsentationen](praesentationen)
-[Kochen](kochen)
-[Touren](touren)
-[Downloads](downloads)
-[Über mich](ueber-mich)
-[Kontakt](kontakt)

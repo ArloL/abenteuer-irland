@@ -15,13 +15,15 @@ translations:
 
 # Hello,
 
-my name is Mary O`Keeffe and as a native Irish person I´d like to show you my Ireland –
-how it vibrates, it´s stunning natural beauty as well as the heart and soul of the Irish race.
+my name is Mary O`Keeffe and as a native Irish person I´d like to show you my
+Ireland – how it vibrates, it´s stunning natural beauty as well as the heart and
+soul of the Irish race.
 
-I organise all aspects of your trip from accommodation to getting around, where to go and
-what to do. If so wished, I´ll even accompany you as personal guide.
+I organise all aspects of your trip from accommodation to getting around, where
+to go and what to do. If so wished, I´ll even accompany you as personal guide.
 
-Please call or mail me if you are interested or if have any queries about Ireland.
+Please call or mail me if you are interested or if have any queries about
+Ireland.
 
 Regards from Bocholt, Westfalia.
 

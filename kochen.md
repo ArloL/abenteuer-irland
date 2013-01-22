@@ -11,11 +11,15 @@ translations:
 
 ## Kochabend auf Englisch
 
-Sie möchten in einer entspannten Atmosphäre ein wenig Ihr Englisch polieren und dabei noch etwas Leckeres kochen? Kommen Sie doch zu einem meiner Kochabende.
+Sie möchten in einer entspannten Atmosphäre ein wenig Ihr Englisch polieren und
+dabei noch etwas Leckeres kochen? Kommen Sie doch zu einem meiner Kochabende.
 
-Gemeinsam bereiten wir ein 4-Gang Menü zu, tauschen uns über Tipps und Tricks der Küche aus und genießen ein paar schöne Stunden zusammen. Sie werden nicht ein mal mehr merken, dass Sie Englisch sprechen.
+Gemeinsam bereiten wir ein 4-Gang Menü zu, tauschen uns über Tipps und Tricks
+der Küche aus und genießen ein paar schöne Stunden zusammen. Sie werden nicht
+ein mal mehr merken, dass Sie Englisch sprechen.
 
-Wenn Sie Spaß am Kochen haben, warum kommen Sie nicht einfach vorbei und kombinieren es mit etwas Englisch lernen?
+Wenn Sie Spaß am Kochen haben, warum kommen Sie nicht einfach vorbei und
+kombinieren es mit etwas Englisch lernen?
 
 Sie erhalten am Ende ein kleines Rezepheft.
 

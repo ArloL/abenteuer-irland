@@ -6,13 +6,3 @@ _site
 
 # Sublime Text 2
 *.sublime-workspace
-
-# Folders to ignore
-intermediate
-publish
-content
-site/custom.php
-
-# build script local files
-build/buildinfo.properties
-build/config/buildinfo.properties

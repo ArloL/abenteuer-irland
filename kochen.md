@@ -4,7 +4,7 @@ title: Kochen
 language: de
 translations:
  - language: en
-   link: en/cookery
+   link: en/
 ---
 # Kochen
 

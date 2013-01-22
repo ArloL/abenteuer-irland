@@ -4,7 +4,7 @@ title: Touren
 language: de
 translations:
  - language: en
-   link: en/tours
+   link: en/
 ---
 # IRLAND – Traditionen und Lebensweisen 
 

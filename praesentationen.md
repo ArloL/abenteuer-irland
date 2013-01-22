@@ -4,7 +4,7 @@ title: Präsentationen
 language: de
 translations:
  - language: en
-   link: en/presentationss
+   link: en/
 ---
 # Präsentationen
 

@@ -1,6 +1,6 @@
 title:  "Abenteuer Irland"
 description: "Das ist die deutsche Seite."
-exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, abenteuer-irland.sublime-project, abenteuer-irland.sublime-workspace]
+exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, Rakefile.config, abenteuer-irland.sublime-project, abenteuer-irland.sublime-workspace]
 markdown: kramdown
 url: http://abenteuer-irland.de
 baseurl: /~ArloLOK/abenteuer-irland/

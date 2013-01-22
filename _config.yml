@@ -1,6 +1,6 @@
 title:  "Abenteuer Irland"
 description: "Das ist die deutsche Seite."
-exclude: [build, img-src, Gemfile, Gemfile.lock, Rakefile, abenteuer-irland.sublime-project, abenteuer-irland.sublime-workspace]
+exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, abenteuer-irland.sublime-project, abenteuer-irland.sublime-workspace]
 markdown: kramdown
 analytics_id: UA-25657814-1
 languages:

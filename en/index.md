@@ -11,7 +11,7 @@ translations:
  - language: de
    link: 
 ---
-<img class="floatright" width="180" height="203" src="img/Mary-11.jpg">
+<img class="floatright" width="180" height="200" src="img/mary.jpg">
 
 # Hello,
 

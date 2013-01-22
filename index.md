@@ -10,7 +10,7 @@ translations:
  - language: en
    link: en/
 ---
-<img id="portrait" class="floatright" src="img/Mary-11.jpg">
+<img class="floatright" width="180" height="200" src="img/mary.jpg">
 
 # Hallo,
 

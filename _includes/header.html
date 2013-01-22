@@ -21,7 +21,8 @@
     <meta http-equiv="Content-Language" content="{{page.language}}" />
     {% endif %}
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="/css/style.css">
+    <base href="{% if page.base %}{{page.base}}{% endif %}">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body {% if page.body_id %}id="{{ page.body_id }}"{% endif %}>
@@ -43,7 +44,7 @@
                 {% for language in site.languages %}
                     {% for translation in page.translations %}
                         {% if translation.language == language.short %}
-                            <a href="/{{translation.link}}"><img width="{{language.flag_width}}" height="{{language.flag_height}}" src="/img/{{language.flag}}" alt="{{language.name}}"></a>
+                            <a href="{{translation.link}}"><img width="{{language.flag_width}}" height="{{language.flag_height}}" src="img/{{language.flag}}" alt="{{language.name}}"></a>
                         {% endif %}
                     {% endfor %}
                 {% endfor %}

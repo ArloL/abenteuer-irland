@@ -20,7 +20,7 @@ task :beta do
 end
 
 task :upload do
-	system('jekyll')
+	system('jekyll --url http://abenteuer-irland.de --base-url')
 	cd '_site' do
   	Rake::FtpUploader.connect('/html/abenteuer-irland', 'abenteuer-irland.de', 'web329', 'HlHHvtWX') do |ftp|
     	ftp.verbose = true # gives you some output

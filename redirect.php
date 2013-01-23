@@ -7,7 +7,8 @@ $aRedirects = array(
     'home' => '{{site.url}}',
     'en/home' => '{{site.url}}/en/',
     'english' => 'http://business-english-bocholt.de',
-    'englisch' => 'http://business-english-bocholt.de'
+    'englisch' => 'http://business-english-bocholt.de',
+    'business-english' => 'http://business-english-bocholt.de',
 );
 
 $sPath = $_GET['path'];

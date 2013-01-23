@@ -2,7 +2,7 @@ title:  "Abenteuer Irland"
 description: "Das ist die deutsche Seite."
 exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, Rakefile.config, abenteuer-irland.sublime-project, abenteuer-irland.sublime-workspace]
 markdown: kramdown
-url: http://abenteuer-irland.de
+url: http://localhost
 baseurl: /~ArloLOK/abenteuer-irland/
 analytics_id: UA-25657814-1
 languages:

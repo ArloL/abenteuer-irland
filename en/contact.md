@@ -2,7 +2,6 @@
 layout: default
 title: Contact
 canonical: en/contact
-base: ..
 language: en
 translations:
  - language: de

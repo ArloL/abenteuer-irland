@@ -2,7 +2,6 @@
 layout: default
 title: About me
 canonical: en/about-me
-base: ..
 language: en
 translations:
  - language: de

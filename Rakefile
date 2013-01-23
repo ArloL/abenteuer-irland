@@ -30,7 +30,7 @@ task :dev do
 end
 
 task :beta => :lessc do
-	system('jekyll --base-url /')
+	system('jekyll --url http://beta.abenteuer-irland.de --base-url /')
 	cd '_site' do
   	Rake::FtpUploader.connect('/html/beta-abenteuer-irland', $ftp_server, $ftp_login, $ftp_password) do |ftp|
     	ftp.verbose = true # gives you some output
@@ -41,7 +41,7 @@ task :beta => :lessc do
 end
 
 task :upload => :lessc do
-	system('jekyll --base-url /')
+	system('jekyll --url http://abenteuer-irland.de --base-url /')
 	cd '_site' do
   	Rake::FtpUploader.connect('/html/abenteuer-irland', $ftp_server, $ftp_login, $ftp_password) do |ftp|
     	ftp.verbose = true # gives you some output

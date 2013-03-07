@@ -3,7 +3,7 @@ layout: default
 title: Abenteuer Irland - Personal Ireland Trips
 no_title_expansion: true
 description: Trips to Ireland - planned according to your needs by Mary O'Keeffe.
-body_id: home
+body_class: ireland-bg
 canonical: en/
 language: en
 translations:

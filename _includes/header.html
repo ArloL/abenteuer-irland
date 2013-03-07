@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7" lang="{{page.language}}"> <![endif]-->
-<!--[if IE 7]>         <html class="lt-ie9 lt-ie8" lang="{{page.language}}"> <![endif]-->
-<!--[if IE 8]>         <html class="lt-ie9" lang="{{page.language}}"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="{{page.language}}"> <!--<![endif]-->
+{% if page.language %}{% assign language = page.language %}{% else %}{% assign language = site.language %}{% endif %}
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7" lang="{{language}}"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8" lang="{{language}}"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9" lang="{{language}}"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="{{language}}"> <!--<![endif]-->
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -14,42 +15,35 @@
     {% if page.description %}
     <meta name="description" content="{{page.description}}">
     {% endif %}
-    {% if page.author %}
-    <meta name="author" content="{{page.author}}">
-    {% endif %}
-    {% if page.language %}
-    <meta http-equiv="Content-Language" content="{{page.language}}" />
-    {% endif %}
+    <meta http-equiv="Content-Language" content="{{language}}" />
     <meta name="viewport" content="width=device-width">
     <base href="{{site.url}}{{site.baseurl}}">
-    <link rel="stylesheet" href="css/8a9aa2dd01bd7025e8bbb5a5d9c131bf.css">
+    <link rel="stylesheet" href="css/6844383a0acfa0fe6cfbae27014c4529.css">
+    {% if page.canonical %}
     <link rel="canonical" href="{{site.url}}{{site.baseurl}}{{page.canonical}}" />
+    {% endif %}
 </head>
 
-<body {% if page.body_id %}id="{{ page.body_id }}"{% endif %}>
+<body class="{% if page.body_class %}{{ page.body_class }} {% endif %}light">
 
-<div id="top">
+<div class="header">
+    <a class="logo ir" href="." title="Abenteuer Irland">Abenteuer Irland</a>
+    <div id="telBox">
+        <p>
+            <a href="mailto:mok@abenteuer-irland.de">mok@abenteuer-irland.de</a><br />
+            +49 2871 3108999
+        </p>
+    </div>
+    <div id="language">
+        <p>
+        {% for language in site.languages %}
+            {% for translation in page.translations %}
+                {% if translation.language == language.short %}
+                    <a href="{{translation.link}}"><img width="{{language.flag_width}}" height="{{language.flag_height}}" src="img/{{language.flag}}" alt="{{language.name}}"></a>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+        </p>
+    </div>
+    {% include nav.html %}
 </div>
-<div id="center">
-    <div id="container">
-        <header>
-            <a class="logo ir" href="." title="Abenteuer Irland">Abenteuer Irland</a>
-            <div id="telBox">
-                <p>
-                    <a href="mailto:mok@abenteuer-irland.de">mok@abenteuer-irland.de</a><br />
-                    +49 2871 3108999
-                </p>
-            </div>
-            <div id="language">
-                <p>
-                {% for language in site.languages %}
-                    {% for translation in page.translations %}
-                        {% if translation.language == language.short %}
-                            <a href="{{translation.link}}"><img width="{{language.flag_width}}" height="{{language.flag_height}}" src="img/{{language.flag}}" alt="{{language.name}}"></a>
-                        {% endif %}
-                    {% endfor %}
-                {% endfor %}
-                </p>
-            </div>
-            {% include nav.html %}
-        </header>

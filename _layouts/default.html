@@ -1,12 +1,10 @@
 {% include header.html %}
-<div id="content">
-	<div id="main" role="main">
-		{{ content }}
-	</div>
+<div class="article clearfix">
+<div class="content">
+{{ content }}
+</div>
 </div>
 {% include footer.html %}
-</div> <!--! end of #container -->
-</div> <!--! end of #center -->
 
 {% if site.analytics_id %}
 <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.

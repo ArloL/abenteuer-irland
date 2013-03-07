@@ -11,8 +11,8 @@
 
 @base03:    #f18400;
 @base02:    #f19c36;
-@base01:    #586e75;
-@base00:    #657b83;
+@base01:    #222;
+@base00:    #222;
 @base0:     #FFF;
 @base1:     #FFF;
 @base2:     #eee8d5;
@@ -239,6 +239,10 @@ a, a:active, a:visited {
             a {
                 padding: (0em + ((@line-height / @nav-font-size) - 1) / 2);
                 white-space: nowrap;
+
+                &:hover, &:focus {
+                    background: #a5bb54;                   
+                }
             }
         }
     }

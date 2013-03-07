@@ -8,7 +8,7 @@ canonical: en/
 language: en
 translations:
  - language: de
-   link: 
+   link:
 ---
 <img class="floatright" width="180" height="200" src="img/mary-2.jpg">
 

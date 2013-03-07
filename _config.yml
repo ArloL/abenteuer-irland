@@ -5,6 +5,7 @@ markdown: kramdown
 url: http://localhost
 baseurl: /~ArloLOK/abenteuer-irland/
 analytics_id: UA-25657814-1
+language: de
 languages:
  - short: en
    name: English

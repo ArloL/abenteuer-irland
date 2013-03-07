@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /impressum
+Disallow: /impressum.html
+Disallow: /404
+Disallow: /404.html
 Sitemap: http://abenteuer-irland.de/sitemap.xml

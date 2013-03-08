@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Über me
+title: Über mich
 canonical: ueber-mich
 language: de
 translations:

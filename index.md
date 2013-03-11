@@ -21,7 +21,7 @@ persönlichen Seite näher bringen.
 Ich übernehme für Sie gerne die Organisation der Reise mit netten Unterkünften,
 Transport, Sehenswürdigkeiten und bin auf Wunsch auch gerne Ihr "Personal Guide".
 
-Bei Interesse rufen Sie mich doch einfach an oder schreiben mir eine E-Mail.
+Bei Interesse rufen Sie mich doch einfach an oder schreiben mir eine Email.
 
 Viele Grüße aus Bocholt, NRW
 

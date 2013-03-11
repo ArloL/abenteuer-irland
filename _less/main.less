@@ -206,7 +206,6 @@ a, a:active, a:visited {
 .footer,
 .article {
     background: rgb(137,166,32);
-    margin: 0 1em 0 1em;
 }
 
 .lt-ie9 .header,
@@ -442,14 +441,22 @@ a, a:active, a:visited {
    These override the primary ('mobile first') styles.
    ========================================================================== */
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 42em) {
     body {
         /* If standard font-size is 16px this makes it 20px. */
         font-size: 1.25em;
     }
+}
 
+@media only screen and (min-width: 54em) {
     .header, .footer, .article {
-        margin: 0 2em 0 2em;
+        margin: 0 1em;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .header, .footer, .article {
+        margin: 0 2em;
     }
 }
 

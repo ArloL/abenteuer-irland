@@ -49,7 +49,7 @@ def replace_stylesheet_links(new_name)
   files = Dir.glob('{*.html,_includes/*.html,_layouts/*.html}')
   files.each{ |arg|
     content = open(arg).gets(nil)
-    content = content.gsub(/<link rel=\"stylesheet\" href=\"\/css\/.*\.css\">/, '<link rel="stylesheet" href="/css/' + new_name + '">')
+    content = content.gsub(/<link rel=\"stylesheet\" href=\"css\/.*\.css\">/, '<link rel="stylesheet" href="css/' + new_name + '">')
     open(arg, 'w'){ |file|
       file.puts(content)
     }

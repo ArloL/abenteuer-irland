@@ -58,7 +58,7 @@ end
 
 desc 'Upload the website to the beta server'
 task :beta => :dev_less do
-  system('jekyll build --config _config.beta.yml')
+  Jekyll::Commands::Build.process(Jekyll.configuration({:config => '_config.beta.yml'}))
   cd '_site' do
     Rake::FtpUploader.connect('/html/beta-abenteuer-irland', $ftp_server, $ftp_login, $ftp_password) do |ftp|
       ftp.verbose = true # gives you some output
@@ -70,7 +70,7 @@ end
 
 desc 'Upload the website to the live server'
 task :upload => :prod_less do
-  system('jekyll build --config _config.live.yml')
+  Jekyll::Commands::Build.process(Jekyll.configuration({:config => '_config.live.yml'}))
   cd '_site' do
     Rake::FtpUploader.connect('/html/abenteuer-irland', $ftp_server, $ftp_login, $ftp_password) do |ftp|
       ftp.verbose = true # gives you some output

@@ -11,7 +11,7 @@ translations:
 
 Mary O'Keeffe  
 Abenteuer Irland  
-Osterstr. 55  
+Wesemannstr. 19  
 46397 Bocholt  
 Telefon: +49 2871 3108999  
 E-Mail: <mok@abenteuer-irland.de>

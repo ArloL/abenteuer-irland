@@ -54,24 +54,26 @@ def replace_stylesheet_links(new_name)
   }
 end
 
+desc 'Upload the website to the beta server'
 task :beta => :dev_less do
-	system('jekyll --url http://beta.abenteuer-irland.de --base-url /')
-	cd '_site' do
-  	Rake::FtpUploader.connect('/html/beta-abenteuer-irland', $ftp_server, $ftp_login, $ftp_password) do |ftp|
-    	ftp.verbose = true # gives you some output
-    	ftp.upload_files("./**/*")
-    	ftp.upload_files(".htaccess")
-  	end
-	end
+  system('jekyll build --config _config.beta.yml')
+  cd '_site' do
+    Rake::FtpUploader.connect('/html/beta-abenteuer-irland', $ftp_server, $ftp_login, $ftp_password) do |ftp|
+      ftp.verbose = true # gives you some output
+      ftp.upload_files("./**/*")
+      ftp.upload_files(".htaccess")
+    end
+  end
 end
 
+desc 'Upload the website to the live server'
 task :upload => :prodless do
-	system('jekyll --url http://abenteuer-irland.de --base-url /')
-	cd '_site' do
-  	Rake::FtpUploader.connect('/html/abenteuer-irland', $ftp_server, $ftp_login, $ftp_password) do |ftp|
-    	ftp.verbose = true # gives you some output
-    	ftp.upload_files("./**/*")
-    	ftp.upload_files(".htaccess")
-  	end
-	end
+  system('jekyll build --config _config.live.yml')
+  cd '_site' do
+    Rake::FtpUploader.connect('/html/abenteuer-irland', $ftp_server, $ftp_login, $ftp_password) do |ftp|
+      ftp.verbose = true # gives you some output
+      ftp.upload_files("./**/*")
+      ftp.upload_files(".htaccess")
+    end
+  end
 end

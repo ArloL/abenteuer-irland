@@ -1,0 +1,19 @@
+title:  "Abenteuer Irland"
+description: "Mary O'Keeffe nimmt Sie auf eine Reise in das grüne Paradies."
+exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, Rakefile.config, abenteuer-irland.sublime-project, abenteuer-irland.sublime-workspace]
+markdown: kramdown
+url: http://arlos-mbp.local.
+baseurl: /~ArloLOK/abenteuer-irland/
+analytics_id: UA-25657814-1
+language: de
+languages:
+ - short: en
+   name: English
+   flag: english-2.png
+   flag_width: 30
+   flag_height: 15
+ - short: de
+   name: Deutsch
+   flag: german-2.png
+   flag_width: 30
+   flag_height: 18

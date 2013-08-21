@@ -50,7 +50,9 @@ def replace_stylesheet_links(new_name)
   files.each{ |arg|
     content = open(arg).gets(nil)
     content = content.gsub(/<link rel=\"stylesheet\" href=\"\/css\/.*\.css\">/, '<link rel="stylesheet" href="/css/' + new_name + '">')
-    open(arg, 'w').puts(content)
+    open(arg, 'w'){ |file|
+      file.puts(content)
+    }
   }
 end
 

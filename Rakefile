@@ -67,7 +67,7 @@ task :beta => :dev_less do
 end
 
 desc 'Upload the website to the live server'
-task :upload => :prodless do
+task :upload => :prod_less do
   system('jekyll build --config _config.live.yml')
   cd '_site' do
     Rake::FtpUploader.connect('/html/abenteuer-irland', $ftp_server, $ftp_login, $ftp_password) do |ftp|

@@ -4,7 +4,7 @@ exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, Rakefile.config, abenteuer-i
 markdown: kramdown
 url: http://arlos-mbp.local.
 baseurl: /~ArloLOK/abenteuer-irland/
-analytics_id: UA-25657814-1
+analytics_id:
 language: de
 languages:
  - short: en

@@ -70,18 +70,10 @@ a, a:active, a:visited {
     color: @base01;
 }
 
-.green {
-    
-}
-
 .header,
 .footer,
 .article {
     background: rgb(137,166,32);
-}
-
-.header {
-    padding: 0.25em 0.5em;
 }
 
 .lt-ie9 .header,
@@ -90,14 +82,10 @@ a, a:active, a:visited {
     padding: 0 (0em + @line-height);
     margin-right: auto;
     margin-left: auto;
-    min-width: 15em;
-    max-width: 50em;
 }
 
-.lt-ie7 .header,
-.lt-ie7 .footer,
-.lt-ie7 .article  {
-    width: 40em;
+.header {
+    padding: 0.25em 0.5em;
 }
 
 @nav-font-size: 0.8;
@@ -127,10 +115,6 @@ a, a:active, a:visited {
     }
 }
 
-.lt-ie9 .nav {
-    padding-bottom: 0.5em;
-}
-
 .content {
     max-width: 33em;
     min-width: 15em;
@@ -142,11 +126,13 @@ a, a:active, a:visited {
     width: 33em;
 }
 
-#logo {
-    width: 18em; 
-    height: auto;
-    max-width: 295px;
-    max-height: 50px;
+.header .logo {
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(../img/logo-2.png);
+    background-size: 295px 50px;
+    width: 295px;
+    height: 50px;
     }
 
 #telBox {

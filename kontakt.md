@@ -10,7 +10,7 @@ translations:
 # Kontakt
 
 Mary O´Keeffe  
-Osterstr. 55  
+Wesemannstr. 19  
 46397 Bocholt
 
 E-Mail: <mok@abenteuer-irland.de>  

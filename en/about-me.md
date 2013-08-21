@@ -17,7 +17,7 @@ Hessen and Northrhein Westfalia.
 
 It´s always been a pleasure seeing myself as an „inofficial Ambassador of
 Ireland“. I´ve been inspired by the interest of the German folk to organise
-irish cookery evenings and presentations about Ireland.
+Irish cookery evenings and presentations about Ireland.
 
 Back in Ireland the neighbours say „I never come home without bringing somebody
 with me“. This led to the idea of organising group travel for those looking for

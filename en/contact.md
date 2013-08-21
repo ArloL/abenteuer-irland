@@ -10,7 +10,7 @@ translations:
 # Contact
 
 Mary O´Keeffe  
-Osterstr. 55  
+Wesemannstr. 19  
 46397 Bocholt  
 Germany
 

@@ -67,7 +67,7 @@ a,a:active,a:visited{color:#222222;}
 #language{display:inline-block;margin:0.25em 0.25em 0.25em 1em;padding:0;}
 #language p{margin:0;}
 .article .content{background:#fff;padding:0.5em 1em;margin:0 1em;-webkit-border-radius:0.75em;-moz-border-radius:0.75em;border-radius:0.75em;}
-.footer{background:#89a620;text-align:center;}
+.footer{text-align:center;}
 .article img.floatright{margin:0 0 0.5em 1em;width:9em;height:auto;max-width:180px;max-height:200px;}
 .ireland-bg .article{background:url(../img/back-4.jpg) no-repeat left top #89a620;background-size:1150px 750px;}.ireland-bg .article .content{background:rgba(255, 255, 255, 0.8);margin-top:1em;margin-bottom:1em;}
 .floatright{float:right;}

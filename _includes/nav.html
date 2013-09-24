@@ -1,7 +1,5 @@
-<div class="nav">
-    {% if page.language == 'de' %}
-    {% include de-nav.html %}
-    {% elsif page.language == 'en' %}
-    {% include en-nav.html %}
-    {% endif %}
-</div>
+{% if page.language == 'de' %}
+{% include de-nav.html %}
+{% elsif page.language == 'en' %}
+{% include en-nav.html %}
+{% endif %}

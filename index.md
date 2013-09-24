@@ -4,13 +4,12 @@ title: Abenteuer Irland - Persönliche Irlandreisen
 canonical: 
 no_title_expansion: true
 description: Irlandreisen ganz individuell gestaltet von Mary O'Keeffe.
-body_class: ireland-bg
 language: de
 translations:
  - language: en
    link: en/
 ---
-<img class="floatright" width="180" height="200" src="img/mary-2.jpg">
+<img class="mary" width="180" height="200" src="img/mary-2.jpg">
 
 # Hallo,
 

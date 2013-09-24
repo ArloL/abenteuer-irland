@@ -3,7 +3,6 @@ description: "Mary O'Keeffe nimmt Sie auf eine Reise in das grüne Paradies."
 exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, Rakefile.config, abenteuer-irland.sublime-project, abenteuer-irland.sublime-workspace]
 url: http://beta.abenteuer-irland.de
 baseurl: /
-analytics_id:
 language: de
 languages:
  - short: en

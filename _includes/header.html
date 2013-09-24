@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 {% if page.language %}{% assign language = page.language %}{% else %}{% assign language = site.language %}{% endif %}
-<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7" lang="{{language}}"> <![endif]-->
-<!--[if IE 7]>         <html class="lt-ie9 lt-ie8" lang="{{language}}"> <![endif]-->
-<!--[if IE 8]>         <html class="lt-ie9" lang="{{language}}"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="{{language}}"> <!--<![endif]-->
+<html lang="{{language}}">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -24,8 +21,8 @@
     {% endif %}
 </head>
 
-<body class="{% if page.body_class %}{{ page.body_class }} {% endif %}light">
-
+<body>
+<div class="body">
 <div class="header">
     <a id="logo" href="." title="Abenteuer Irland"><img src="img/logo-2.png" width="295" height="50"></a>
     <div id="telBox">
@@ -45,5 +42,5 @@
         {% endfor %}
         </p>
     </div>
-    {% include nav.html %}
+{% include nav.html %}
 </div>

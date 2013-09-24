@@ -23,24 +23,26 @@
 
 <body>
 <div class="body">
-<div class="header">
-    <a id="logo" href="." title="Abenteuer Irland"><img src="img/logo-2.png" width="295" height="50"></a>
-    <div class="telBox">
-        <span>
-            <a href="mailto:mok@abenteuer-irland.de">mok@abenteuer-irland.de</a><br />
-            +49 2871 3108999
-        </span>
-    </div>
-    <div id="language">
-        <p>
-        {% for language in site.languages %}
-            {% for translation in page.translations %}
-                {% if translation.language == language.short %}
-                    <a href="{{translation.link}}"><img width="{{language.flag_width}}" height="{{language.flag_height}}" src="img/{{language.flag}}" alt="{{language.name}}"></a>
-                {% endif %}
+    <div class="header">
+        <a class="logo" href="." title="Abenteuer Irland">
+            <img src="img/logo-2.png" width="295" height="50">
+        </a>
+        <div class="telBox">
+            <span>
+                <a href="mailto:mok@abenteuer-irland.de">mok@abenteuer-irland.de</a><br />
+                +49 2871 3108999
+            </span>
+        </div>
+        <div class="language">
+            <span>
+            {% for language in site.languages %}
+                {% for translation in page.translations %}
+                    {% if translation.language == language.short %}
+                        <a href="{{translation.link}}"><img width="{{language.flag_width}}" height="{{language.flag_height}}" src="img/{{language.flag}}" alt="{{language.name}}"></a>
+                    {% endif %}
+                {% endfor %}
             {% endfor %}
-        {% endfor %}
-        </p>
-    </div>
+            </span>
+        </div>
 {% include nav.html %}
-</div>
+    </div>

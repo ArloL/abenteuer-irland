@@ -3,9 +3,7 @@ layout: default
 title: Impressum
 canonical: impressum
 language: de
-translations:
- - language: en
-   link: en/
+translation_link: en/
 ---
 # Impressum
 

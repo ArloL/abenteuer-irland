@@ -35,13 +35,13 @@
         </div>
         <div class="language">
             <span>
-            {% for language in site.languages %}
-                {% for translation in page.translations %}
-                    {% if translation.language == language.short %}
-                        <a href="{{translation.link}}"><img width="{{language.flag_width}}" height="{{language.flag_height}}" src="img/{{language.flag}}" alt="{{language.name}}"></a>
-                    {% endif %}
-                {% endfor %}
-            {% endfor %}
+                <a href="{{page.translation_link}}">
+                {% if page.language == 'de' %}
+                    <img width="30" height="15" src="img/english-2.png" alt="English" />
+                {% elsif page.language == 'en' %}
+                    <img width="30" height="18" src="img/german-2.png" alt="Deutsch" />
+                {% endif %}
+                </a>
             </span>
         </div>
 {% include nav.html %}

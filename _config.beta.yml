@@ -4,14 +4,3 @@ exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, Rakefile.config, abenteuer-i
 url: http://beta.abenteuer-irland.de
 baseurl: /
 language: de
-languages:
- - short: en
-   name: English
-   flag: english-2.png
-   flag_width: 30
-   flag_height: 15
- - short: de
-   name: Deutsch
-   flag: german-2.png
-   flag_width: 30
-   flag_height: 18

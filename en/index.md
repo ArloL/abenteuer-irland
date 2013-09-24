@@ -5,9 +5,7 @@ no_title_expansion: true
 description: Trips to Ireland - planned according to your needs by Mary O'Keeffe.
 canonical: en/
 language: en
-translations:
- - language: de
-   link:
+translation_link: 
 ---
 <img class="mary" width="180" height="200" src="img/mary-2.jpg">
 

@@ -3,9 +3,7 @@ layout: default
 title: Präsentationen
 canonical: praesentationen
 language: de
-translations:
- - language: en
-   link: en/
+translation_link: en/
 ---
 # Präsentationen
 

@@ -5,9 +5,7 @@ canonical:
 no_title_expansion: true
 description: Irlandreisen ganz individuell gestaltet von Mary O'Keeffe.
 language: de
-translations:
- - language: en
-   link: en/
+translation_link: en/
 ---
 <img class="mary" width="180" height="200" src="img/mary-2.jpg">
 

@@ -3,9 +3,7 @@ layout: default
 title: Über mich
 canonical: ueber-mich
 language: de
-translations:
- - language: en
-   link: en/about-me
+translation_link: en/about-me
 ---
 <img class="mary" width="180" height="200" src="img/mary-2.jpg">
 

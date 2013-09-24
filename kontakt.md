@@ -3,9 +3,7 @@ layout: default
 title: Kontakt
 canonical: kontakt
 language: de
-translations:
- - language: en
-   link: en/contact
+translation_link: en/contact
 ---
 # Kontakt
 

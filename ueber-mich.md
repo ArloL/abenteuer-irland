@@ -5,7 +5,7 @@ canonical: ueber-mich
 language: de
 translation_link: en/about-me
 ---
-<img class="mary" width="180" height="200" src="img/mary-2.jpg">
+<img class="mary" width="180" height="200" src="img/mary-2.jpg" alt="">
 
 # Über mich
 

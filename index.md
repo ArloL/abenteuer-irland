@@ -7,7 +7,7 @@ description: Irlandreisen ganz individuell gestaltet von Mary O'Keeffe.
 language: de
 translation_link: en/
 ---
-<img class="mary" width="180" height="200" src="img/mary-2.jpg">
+<img class="mary" width="180" height="200" src="img/mary-2.jpg" alt="">
 
 # Hallo,
 

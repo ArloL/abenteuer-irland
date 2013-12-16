@@ -63,7 +63,7 @@ a.logo{font-size:1.25em;display:inline-block;vertical-align:middle;margin:.6em 0
 .article{max-width:33em;min-width:15em;word-wrap:break-word;background-color:#fff;padding:0 .75em;margin:0 .75em;-webkit-border-radius:.75em;-moz-border-radius:.75em;border-radius:.75em;}.article:before,.article:after{content:" ";display:table;}
 .article:after{clear:both}
 .article{*zoom:1}
-.article .mary{float:right;margin:0 0 0.5em 0.75em;width:9em;height:auto;max-width:180px;max-height:200px}
+.article .mary{float:right;margin:1.5em 0 0.5em 0.75em;width:9em;height:auto;max-width:180px;max-height:200px}
 .footer{text-align:center;}.footer:before,.footer:after{content:" ";display:table;}
 .footer:after{clear:both}
 .footer{*zoom:1}

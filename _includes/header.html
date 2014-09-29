@@ -1,25 +1,15 @@
 <!DOCTYPE html>
-{% if page.language %}{% assign language = page.language %}{% else %}{% assign language = site.language %}{% endif %}
-<html lang="{{language}}">
+{% if page.language %}{% assign language = page.language %}{% else %}{% assign language = site.language %}{% endif %}<html lang="{{language}}">
 <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    {% if page.no_title_expansion %}
-    <title>{{ page.title }}</title>
-    {% else %}
-    <title>{{ page.title }} | {{ site.title }}</title>
-    {% endif %}
-    {% if page.description %}
-    <meta name="description" content="{{page.description}}">
-    {% endif %}
+    {% if page.no_title_expansion %}<title>{{ page.title }}</title>{% else %}<title>{{ page.title }} | {{ site.title }}</title>{% endif %}
+    {% if page.description %}<meta name="description" content="{{page.description}}">{% else %}Missing page description{% endif %}
     <meta name="viewport" content="width=device-width">
     <base href="{{site.url}}{{site.baseurl}}">
     <link rel="stylesheet" href="styles.css">
-    {% if page.canonical %}
-    <link rel="canonical" href="{{site.url}}{{site.baseurl}}{{page.canonical}}">
-    {% endif %}
+    {% if page.canonical %}<link rel="canonical" href="{{site.url}}{{site.baseurl}}{{page.canonical}}">{% endif %}
 </head>
-
 <body>
 <div class="body">
     <div class="header">

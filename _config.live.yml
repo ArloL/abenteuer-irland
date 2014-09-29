@@ -4,3 +4,5 @@ exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, Rakefile.config, abenteuer-i
 url: http://abenteuer-irland.de
 baseurl: /
 language: de
+sass:
+    style: compressed

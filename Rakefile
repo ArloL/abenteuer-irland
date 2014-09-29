@@ -16,21 +16,6 @@ task :serve do
   Jekyll::Commands::Serve.process(Jekyll.configuration({:config => '_config.dev.yml', :serving => true, :watch => true}))
 end
 
-def replace_stylesheet_links(new_name)
-  files = Dir.glob('{*.html}')
-  files.each{ |arg|
-    content = open(arg).gets(nil)
-    if content == nil then
-      next
-    end
-    content = content.gsub(/<link rel=\"stylesheet\" href=\"styles\.css\">/, '<link rel="stylesheet" href="' + new_name + '">')
-    open(arg, 'w'){ |file|
-      file.puts(content)
-      file.flush
-    }
-  }
-end
-
 desc 'Upload the website to the beta server'
 task :beta do
   Jekyll::Commands::Build.process(Jekyll.configuration({:config => '_config.beta.yml'}))
@@ -56,4 +41,19 @@ task :upload do
       ftp.upload_files(".htaccess")
     end
   end
+end
+
+def replace_stylesheet_links(new_name)
+  files = Dir.glob('{**/*.html}')
+  files.each{ |arg|
+    content = open(arg).gets(nil)
+    if content == nil then
+      next
+    end
+    content = content.gsub(/<link rel=\"stylesheet\" href=\"styles\.css\">/, '<link rel="stylesheet" href="' + new_name + '">')
+    open(arg, 'w'){ |file|
+      file.puts(content)
+      file.flush
+    }
+  }
 end

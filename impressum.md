@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Impressum
+description: Impressum von Mary O'Keeffe's Abenteuer Irland Website.
 canonical: impressum
 language: de
 translation_link: en/

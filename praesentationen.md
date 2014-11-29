@@ -2,6 +2,7 @@
 layout: default
 title: Präsentationen
 canonical: praesentationen
+description: Irland Präsentationen von Mary O'Keeffe.
 language: de
 translation_link: en/
 ---

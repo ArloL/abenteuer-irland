@@ -2,6 +2,7 @@
 layout: default
 title: Über mich
 canonical: ueber-mich
+description: Ein kurzer Lebenslauf von Mary O'Keeffe.
 language: de
 translation_link: en/about-me
 ---

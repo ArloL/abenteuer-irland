@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kontakt
+description: Kontaktdaten von Mary O'Keeffe
 canonical: kontakt
 language: de
 translation_link: en/contact

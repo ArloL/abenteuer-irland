@@ -4,3 +4,7 @@ exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, Rakefile.config, abenteuer-i
 url: http://arlol.github.io
 baseurl: /abenteuer-irland/
 language: de
+compress_html:
+  clippings: all
+  comments:  ["<!-- ", " -->"]
+  endings:   all

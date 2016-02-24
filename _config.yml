@@ -10,3 +10,8 @@ compress_html:
   endings:   all
 sass:
   style: compressed
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

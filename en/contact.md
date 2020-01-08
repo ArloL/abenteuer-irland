@@ -8,10 +8,10 @@ translation_link: kontakt
 ---
 # Contact
 
-Mary O´Keeffe
-Wesemannstr. 19
-46397 Bocholt
+Mary O´Keeffe  
+Wesemannstr. 19  
+46397 Bocholt  
 Germany
 
-E-Mail: <mok@abenteuer-irland.de>
+E-Mail: <mok@abenteuer-irland.de>  
 Phone: +49 2871 3108999

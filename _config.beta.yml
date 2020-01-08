@@ -2,5 +2,4 @@ title:  "Abenteuer Irland"
 description: "Mary O'Keeffe nimmt Sie auf eine Reise in das grüne Paradies."
 exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, Rakefile.config, abenteuer-irland.sublime-project, abenteuer-irland.sublime-workspace]
 url: https://beta.abenteuer-irland.de
-baseurl: /
 language: de

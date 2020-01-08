@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About me
+description: A short CV of Mary O'Keeffe.
 canonical: en/about-me
 language: en
 translation_link: ueber-mich

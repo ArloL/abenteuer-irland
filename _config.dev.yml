@@ -1,6 +1,6 @@
 title:  "Abenteuer Irland"
 description: "Mary O'Keeffe nimmt Sie auf eine Reise in das grüne Paradies."
 exclude: [img-src, Gemfile, Gemfile.lock, Rakefile, Rakefile.config, abenteuer-irland.sublime-project, abenteuer-irland.sublime-workspace]
-url: http://arlos-mbp.local.
-baseurl: /~ArloLOK/abenteuer-irland/
+url: http://127.0.0.1:4000
+baseurl: /~ArloLOK/abenteuer-irland
 language: de

@@ -10,9 +10,6 @@ compress_html:
   endings:   all
 sass:
   style: compressed
-gems:
-  - jekyll-seo-tag
-  - jekyll-sitemap
 defaults:
   - scope:
       path: ""

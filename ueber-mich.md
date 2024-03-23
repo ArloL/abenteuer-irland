@@ -6,7 +6,7 @@ description: Ein kurzer Lebenslauf von Mary O'Keeffe.
 language: de
 translation_link: en/about-me
 ---
-<img class="mary" width="180" height="200" src="img/mary-2.jpg" alt="">
+<img class="mary" width="180" height="200" src="img/mary-3.jpg" alt="">
 
 # Über mich
 

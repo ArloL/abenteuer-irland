@@ -7,7 +7,7 @@ canonical: en/
 language: en
 translation_link: 
 ---
-<img class="mary" width="180" height="200" src="img/mary-2.jpg" alt="">
+<img class="mary" width="180" height="200" src="img/mary-3.jpg" alt="">
 
 # Hello,
 

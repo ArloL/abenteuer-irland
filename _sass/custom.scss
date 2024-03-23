@@ -157,6 +157,8 @@ a.logo {
         height: auto;
         max-width: 180px;
         max-height: 200px;
+        @include rounded(0em + math.div($line-height, 2));
+        object-fit: cover;
     }
 }
 

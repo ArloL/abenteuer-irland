@@ -8,8 +8,6 @@ if File.exist?('Rakefile.config')
   load 'Rakefile.config'
 end
 
-#task :default => [:serve]
-
 desc 'Upload the website to the beta server'
 task :beta do
   Jekyll::Commands::Build.process(Jekyll.configuration({:config => '_config.beta.yml'}))

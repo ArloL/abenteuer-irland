@@ -10,7 +10,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-# Preview
+# Beta Preview and final upload
 
 Create `Rakefile.config`:
 ```
